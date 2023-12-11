@@ -25,7 +25,7 @@ The process is straight forward:
 
 A [nightly build]([url](https://app.circleci.com/pipelines/github/sorbet-multiarch/sorbet-builder)) will run, building and publishing the latest Sorbet version.
 
-See all the [supported versions]([url](https://gemfury.com/sorbet-multiarch/ruby:sorbet-static)). If you need a version not supported, just [start a discussion](https://github.com/orgs/sorbet-multiarch/discussions).
+See all the [supported versions]([url](https://gemfury.com/sorbet-multiarch/ruby:sorbet-static)). If you need a version not supported, just [create a new issue](https://github.com/sorbet-multiarch/sorbet-builder/issues).
 
 ## Components
 Several repositories are involved:
