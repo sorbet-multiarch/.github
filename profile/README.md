@@ -15,7 +15,7 @@ Sorbet includes a compiled binary in the `sorbet-static` gem used during develop
 At the time of writing, this binary is not natively built for any arm64 platform.
 Sorbet has [a long running issue]([url](https://github.com/sorbet/sorbet/issues/4119)) tracking linux/arm64 support.
 
-sorbet-multiarch provides community builds of Sorbet **with native support for linux/arm64**.
+sorbet-multiarch provides community builds of Sorbet **with native support for linux/arm64**, built in [CircleCI](https://app.circleci.com/pipelines/github/sorbet-multiarch/sorbet-builder?filter=all) and hosted on [Gemfury](https://gemfury.com/sorbet-multiarch).
 
 ## How are the gems built?
 The process is straight forward:
