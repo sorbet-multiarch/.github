@@ -4,7 +4,7 @@ Community built Sorbet gems that support linux/arm64 (devcontainers on macOS)!
 To use these gems, just change your `Gemfile`:
 ```
 source 'https://gem.fury.io/sorbet-multiarch/' do
-  gem 'sorbet-static'
+  gem 'sorbet-static', :group => :development
   gem 'sorbet'
 end
 ```
