@@ -19,7 +19,7 @@ sorbet-multiarch provides community builds of Sorbet **with native support for l
 
 ## How are the gems built?
 The process is straight forward:
-1. The `sorbet-static` is built for linux/arm64 in CircleCI.
+1. The `sorbet-static` is [patched]([url](https://github.com/sorbet-multiarch/sorbet-builder/blob/main/fix-arm64-build.patch)) and built for linux/arm64 in CircleCI.
 2. The `sorbet-static` gem is uploaded to Gemfury.
 3. The other gems for that Sorbet version are copied from Rubygems to Gemfury.
 
